@@ -1,0 +1,101 @@
+body{
+  padding: 0;
+  margin:0;
+  font-family: 'Baloo 2';
+}
+
+.container{
+  padding:10px;
+  width:400px;
+  margin:0 auto;
+}
+
+.header{
+  color:white;
+  background-color: #b799de;
+  text-align: center;
+  font-size:30px;
+  height: 60px;
+}
+
+.add-item{
+  position: relative;
+  width:400px;
+  height: 30px;
+  margin-top:10px;
+}
+
+.add-item input{
+  position: absolute;
+   width:320px;
+   height: 30px;
+   padding: 10px;
+   border-radius: 10px;
+   font-size:20px;
+}
+
+.add-item i{
+  top:5px;
+  font-size:40px;
+  position:absolute;
+  right: 10px;
+}
+
+.content{
+  width:400px;
+  padding:0;
+  margin-top:40px;
+  background-color: #F1D5F7;
+}
+
+.content ul{
+    padding:0px;
+}
+
+.item{
+    list-style:none;
+    width:400px;
+    height: 40px;
+    position: relative;
+    border-bottom: 1px solid;
+    font-size:25px;
+}
+
+.item i.i1{
+  position: absolute;
+  left:15px;
+  top:7px;
+}
+
+.item i.i2{
+  position:absolute;
+  right:15px;
+  top:7px;
+}
+
+.text{
+  position: absolute;
+  font-size:20px;
+  left:50px;
+  margin:0;
+  top:5px;
+}
+
+.lineThrough{
+  text-decoration: line-through;
+  color:#a0a0a0;
+}
+
+
+.buttons{
+  display:flex;
+  justify-content: space-between;
+}
+
+.buttons button{
+  width:100px;
+  height:40px;
+  border-radius: 15px;
+  font-size:15px;
+  font-family: 'Baloo 2';
+}

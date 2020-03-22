@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>todoList</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="todolist.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="header">
+            <h3>todoList</h3>
+        </div>
+        <div class="add-item">
+          <input type="text" placeholder="Add a todoItem" id="input">
+          <i class="fa fa-plus-square-o" id="plus"></i>
+        </div>
+        <div class="content">
+            <ul id="items">
+            </ul>
+        </div>
+        <div class="footer">
+          <div class="buttons">
+            <button type="button" id="buttonall">All</button>
+            <button type="button" id="buttonactive">Active</button>
+            <button type="button" id="buttoncompleted">Completed</button>
+          </div>
+        </div>
+    </div>
+    <script src="todolist.js"></script>
+  </body>
+</html>
